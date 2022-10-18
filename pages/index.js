@@ -1,7 +1,8 @@
 import styled from "styled-components";
 import React from "react";
 import { motion } from "framer-motion";
-import Loader from "../component/loader";
+
+import Loader from "../component/Loader";
 // import bg from "/images/background-image.svg";
 const index = () => {
 	return (
