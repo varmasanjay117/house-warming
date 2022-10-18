@@ -21,14 +21,14 @@ const index = () => {
 					}}
 					className="top-right"
 				>
-					<img src="/images/top-right-image.svg" alt=""></img>
+					<img src="/images/final-top-left-img.svg" alt=""></img>
 				</motion.div>
 				<div className="right-bottom">
 					<img src="/images/bottom-right.svg" alt=""></img>
 				</div>
 
 				<div className="container">
-					<div className="main-kalsh-container">
+					{/* <div className="main-kalsh-container">
 						<div className="kalash-img">
 							<motion.img
 								initial={{
@@ -49,7 +49,7 @@ const index = () => {
 								alt=""
 							/>
 						</div>
-					</div>
+					</div> */}
 					<div className="main-invention">
 						<div className="heading">PLEASE JOIN US FOR </div>
 						<div className="sub-heading">House Warmimg</div>
@@ -84,7 +84,8 @@ const IndexStyle = styled.section`
 	/* background: yellow; */
 	position: relative;
 	overflow: hidden;
-	background-image: url("/images/background-images.svg");
+	background-image: url("/images/house.svg");
+	background-size: 73rem 54rem;
 	background-position: center;
 	background-repeat: no-repeat, no-repeat;
 	height: 100vh;
@@ -119,7 +120,7 @@ const IndexStyle = styled.section`
 
 	.container {
 		display: grid;
-		grid-template-columns: 35vw 65vw;
+		/* grid-template-columns: 35vw 65vw; */
 		height: 100vh;
 		width: 100vw;
 	}
@@ -137,7 +138,14 @@ const IndexStyle = styled.section`
 
 	.main-invention {
 		position: relative;
-		top: 28%;
+		position: relative;
+		top: 0%;
+		margin: 2rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
 		margin: 2rem;
 
 		/* margin-top: 12.5rem; */
@@ -181,10 +189,12 @@ const IndexStyle = styled.section`
 			line-height: 54px;
 			letter-spacing: 0.1em;
 			color: #000000;
+			max-width: 54rem;
 		}
 	}
 
 	@media (max-width: 500px) {
+		background-size: 37rem 54rem;
 		.top-right {
 			img {
 				width: 30%;
@@ -210,7 +220,7 @@ const IndexStyle = styled.section`
 			}
 			.main-invention {
 				position: absolute;
-				top: 45%;
+				top: 30%;
 				display: flex;
 				justify-content: center;
 				align-items: center;
