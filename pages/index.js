@@ -198,9 +198,10 @@ const IndexStyle = styled.section`
 				justify-content: center;
 				align-items: center;
 				position: absolute;
-				top: 9%;
+				top: 12%;
+				left: 43px;
 				img {
-					width: 70%;
+					width: 85%;
 				}
 			}
 			.main-invention {
