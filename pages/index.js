@@ -126,8 +126,8 @@ const IndexStyle = styled.section`
 
 	.main-kalsh-container {
 		.kalash-img {
-			/* position: absolute; */
-			/* top: 20%; */
+			position: absolute;
+			top: 21%;
 			img {
 				height: 100%;
 				width: 100%;
@@ -136,6 +136,10 @@ const IndexStyle = styled.section`
 	}
 
 	.main-invention {
+		position: relative;
+		top: 28%;
+		margin: 2rem;
+
 		/* margin-top: 12.5rem; */
 		.heading {
 			margin-left: 7rem;
@@ -198,7 +202,7 @@ const IndexStyle = styled.section`
 				justify-content: center;
 				align-items: center;
 				position: absolute;
-				top: 12%;
+				top: 8%;
 				left: 43px;
 				img {
 					width: 85%;
@@ -212,6 +216,7 @@ const IndexStyle = styled.section`
 				align-items: center;
 				flex-direction: column;
 				padding: 1rem;
+				margin: 0rem;
 
 				.heading {
 					font-size: 18px;
