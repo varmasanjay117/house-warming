@@ -1,12 +1,24 @@
 import styled from "styled-components";
 import React from "react";
 import { motion } from "framer-motion";
-
+import Head from "next/head";
 import Loader from "../component/Loader";
 // import bg from "/images/background-image.svg";
 const index = () => {
 	return (
 		<>
+			<Head>
+				<title>Sanjay | House Warming</title>
+				<meta property="og:title" content="House Warming" key="title" />
+				<meta
+					name="description"
+					content="Please Join Us For House Warming , OCT 22, SAT 12 NOON, Venue : Flat No 608, Orchid Gagangiri Vihar Complex, near-Gagangiri , Khopoli "
+				/>
+				<meta
+					property="og:image"
+					content="https://res.cloudinary.com/dcah7qqxp/image/upload/v1666157797/Group_9full_image_e5tjvr_b26qnb.jpg"
+				/>
+			</Head>
 			<Loader />
 			<IndexStyle className="hello">
 				<motion.div
